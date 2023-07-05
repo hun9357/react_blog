@@ -32,8 +32,21 @@ function App() {
         <h4>{title[1]}</h4>
         <p>posted 06/28/2023</p>
       </div>
+      
+      <Modal></Modal>
+      
     </div>
   );
+}
+
+function Modal(){
+  return (
+    <div className='modal'>
+        <h4>Title</h4>
+        <p>Date</p>
+        <p>details</p>
+    </div>
+  )
 }
 
 export default App;
